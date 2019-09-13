@@ -1,3 +1,4 @@
+# course builder
 Course Builder was born in July 2012 when we hosted a 2-week online,
 community-based course called Power Searching with Google. The course showcased
 search techniques and how to use them to solve real, everyday problems. We
@@ -27,3 +28,11 @@ are included and deployed when your application is pushed to the App Engine
 servers.  These libraries are placed in a lib/ directory alongside the Course
 Builder source files.  All of these third-party packages are governed by their
 respective licenses found in the packages' respective directories or .zip files.
+
+## setup 
+- `rm lib/_static/`
+- `sh ./scripts/start_in_shell.sh -f -s`
+- login with anything as admin
+- add a course
+- Setting - advacned site settings - set `gcb_enable_course_explorer_page` to `true` 
+
